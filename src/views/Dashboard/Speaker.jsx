@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { speakers } from "utils/speakerData";
+import { speakers } from "utils/SpeakerData";
 
 const Speaker = () => {
   const navigate = useNavigate();
