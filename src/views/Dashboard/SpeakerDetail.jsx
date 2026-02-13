@@ -1,7 +1,7 @@
 import { ArrowLeft, Star, Play, Volume2, Battery, Shield, Bluetooth, MessageCircle, ShoppingCart, CheckCircle } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { speakers } from "utils/speakerData";
+import { speakers } from "utils/SpeakerData";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
