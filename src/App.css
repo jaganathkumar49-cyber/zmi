@@ -1,0 +1,40 @@
+@keyframes slideDownExpand {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem) scale(0.7);
+    }
+
+    40% {
+        opacity: 0.9;
+        transform: translateY(0) scale(0.95);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes slideUpShrink {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-2rem) scale(0.7);
+    }
+}
+
+.animate-slideDownExpand {
+    animation: slideDownExpand 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-slideUpShrink {
+    animation: slideUpShrink 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-bounce-slow {
+    animation: bounce 1.5s infinite;
+}
